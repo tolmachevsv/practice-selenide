@@ -1,4 +1,4 @@
-package com.tolmachevsv;
+package com.tolmachevsv.tests;
 
 import org.junit.jupiter.api.Test;
 

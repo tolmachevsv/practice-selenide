@@ -1,4 +1,4 @@
-package com.tolmachevsv;
+package com.tolmachevsv.tests;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideSearchTest {
 
     @Test
-    void shouldFindJunit5Code() {
+    public void shouldFindJunit5Code() {
         open("https:/github.com");
         $("[data-test-selector=nav-search-input]").setValue("selenide").pressEnter();
         $$(".repo-list li").first().$("a").click();
